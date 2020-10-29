@@ -9,6 +9,8 @@ Contact [garaio-rem@garaio.com](mailto:garaio-rem@garaio.com) to get this inform
 
 Since GraphQL is self documenting, you won't find the API specs here. See "Schema Documentation" for further infos.
 
+Find out what's new in the [Changelog](Changelog.md)
+
 ## Authentication
 
 Use your credentials with the authenticateService Query to obtain an access token like so:
