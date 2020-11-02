@@ -2,6 +2,7 @@
 
 ## 1.10.2 (2020-11-02)
 
+- the queries ```authenticate``` and ```authenticateService``` are deprecated and will be removed in the next minor release. To authenticate, send a post request to /external/graphql/authenticate/token instead (see README for details)
 - optional ```withHistory``` query paramater added for the properties query and the tenancies field
 - fixed wrong tenancy start- / endDates in a assumption of contract scenario (Vertragsumschreibung)
 - properties query returns properties that are managed in the future, not only properties that managed as of today

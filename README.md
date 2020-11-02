@@ -13,17 +13,13 @@ Find out what's new in the [Changelog](Changelog.md)
 
 ## Authentication
 
-Use your credentials with the authenticateService Query to obtain an access token like so:
+Send a POST request to /external/graphql/authenticate/token, eg <https://demo2.garaio-rem.net/external/graphql/authenticate/token> with the following params:
 
-```graphql
-query {
-  authenticateService(clientId: "<your id>", clientSecret: "<your secret>") {
-    accessToken
-  }
-}
-```
+- grant_type: "client_credentials"
+- client_id: "\<your  client id>"
+- client_secret: "\<your  client secret>"
 
-Pass the access token in the authorization header for the following requests. Javascript example:
+You will receive an access token in the response. Pass the access token in the authorization header for the following requests. Javascript example:
 
 ```javascript
 const requestOptions = { headers: { Authorization: `Bearer ${accessToken}` } }
@@ -52,4 +48,4 @@ Contact us if you think you should have access to them.
 
 ## Schema Documentation
 
-We run a [reference server](https://demo.garaio-rem.ch/external/graphql/graphiql) where you can explore the queries and mutations. If you want to extract the schema definition, use one of the many avaliable tools with this [endpoint](https://demo.garaio-rem.ch/external/graphql/)
+We run a [reference server](https://demo.garaio-rem.ch/external/graphql/graphiql) where you can explore the queries and mutations. If you want to extract the schema definition, use one of the many avaliable tools against this [endpoint](https://demo.garaio-rem.ch/external/graphql/)
