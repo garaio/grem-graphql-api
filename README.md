@@ -48,4 +48,4 @@ Contact us if you think you should have access to them.
 
 ## Schema Documentation
 
-We run a [reference server](https://demo.garaio-rem.ch/external/graphql/graphiql) where you can explore the queries and mutations. If you want to extract the schema definition, use one of the many avaliable tools against this [endpoint](https://demo.garaio-rem.ch/external/graphql/)
+We run a [reference server](https://demo.garaio-rem.ch/external/graphql/graphiql) where you can explore the queries and mutations. If you want to extract the schema definition, use one of the many avaliable tools against <https://demo.garaio-rem.ch/external/graphql/>
