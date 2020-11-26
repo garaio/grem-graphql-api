@@ -20,16 +20,6 @@ Send a POST request to /external/graphql/authenticate/token, eg <https://demo2.g
 - client_id: "\<your  client id>"
 - client_secret: "\<your  client secret>"
 
-Or send directly a GraphQL query to <https://demo.garaio-rem.ch/external/graphql/graphiql>:
-
-```json
-query{
-  authenticateService(clientId: "\<your  client id>", clientSecret: "\<your  client secret>"){
-  accessToken
-  }
-}
-```
-
 You will receive an access token in the response. Pass the access token in the authorization header for the following requests. Javascript example:
 
 ```javascript
@@ -59,4 +49,4 @@ Contact us if you think you should have access to them.
 
 ## Schema Documentation
 
-We run a [reference server](https://demo.garaio-rem.ch/external/graphql/graphiql) where you can explore the queries and mutations. If you want to extract the schema definition, use one of the many avaliable tools against <https://demo.garaio-rem.ch/external/graphql/graphiql>
+We run a [reference server](https://demo.garaio-rem.ch/external/graphql/graphiql) where you can explore the queries and mutations. If you want to extract the schema definition, use one of the many avaliable tools against <https://demo.garaio-rem.ch/external/graphql>. Be aware some tools like Insomnia need the graphiql endpoint <https://demo.garaio-rem.ch/external/graphql/graphiql> and some other tools like graphql playground not.
