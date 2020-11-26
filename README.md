@@ -7,7 +7,8 @@ GARAIO REM implements a [GraphQL](https://graphql.org) API to communicate with a
 
 Contact [garaio-rem@garaio.com](mailto:garaio-rem@garaio.com) to get this information.
 
-Since GraphQL is self documenting, you won't find the API specs here. See "Schema Documentation" for further infos.
+Since GraphQL is self documenting, you won't find the API specs here. See "Schema Documentation" for further infos. Every request in GraphQL is a POST request with the Query inside the body.
+In Graphiql (the webinterface of GraphQL) you have the keyboard shortcut crtl+space for the autocompletion.
 
 Find out what's new in the [Changelog](Changelog.md)
 
@@ -18,6 +19,16 @@ Send a POST request to /external/graphql/authenticate/token, eg <https://demo2.g
 - grant_type: "client_credentials"
 - client_id: "\<your  client id>"
 - client_secret: "\<your  client secret>"
+
+Or send directly a GraphQL query to <https://demo.garaio-rem.ch/external/graphql/graphiql>:
+
+```json
+query{
+  authenticateService(clientId: "\<your  client id>", clientSecret: "\<your  client secret>"){
+  accessToken
+  }
+}
+```
 
 You will receive an access token in the response. Pass the access token in the authorization header for the following requests. Javascript example:
 
@@ -48,4 +59,4 @@ Contact us if you think you should have access to them.
 
 ## Schema Documentation
 
-We run a [reference server](https://demo.garaio-rem.ch/external/graphql/graphiql) where you can explore the queries and mutations. If you want to extract the schema definition, use one of the many avaliable tools against <https://demo.garaio-rem.ch/external/graphql/>
+We run a [reference server](https://demo.garaio-rem.ch/external/graphql/graphiql) where you can explore the queries and mutations. If you want to extract the schema definition, use one of the many avaliable tools against <https://demo.garaio-rem.ch/external/graphql/graphiql>
