@@ -14,11 +14,25 @@ Find out what's new in the [Changelog](Changelog.md)
 
 ## Authentication
 
-Send a POST request to /external/graphql/authenticate/token, eg <https://demo2.garaio-rem.net/external/graphql/authenticate/token> with the following params:
+Send a POST request to /external/graphql/authenticate/token, eg <https://demo.garaio-rem.net/external/graphql/authenticate/token>...
+
+### As a service partner
+
+with the following params:
 
 - grant_type: "client_credentials"
 - client_id: "\<your  client id>"
 - client_secret: "\<your  client secret>"
+
+### As a GARAIO REM user
+
+with the following params:
+
+- grant_type: "password"
+- username: "\<the user name>"
+- password: "\<the user password>"
+
+### Using the access token
 
 You will receive an access token in the response. Pass the access token in the authorization header for the following requests. Javascript example:
 
@@ -46,6 +60,8 @@ Access tokens have a short lifespan. They are good for a batch of queries, but d
 Sensitive queries / mutations / fields are protected and not accessible unless we grant access to it, eg tenant / tenancy data. If you try to query fields without the required permissions you will get Not Authorized errors.
 
 Contact us if you think you should have access to them.
+
+***Please note that access restrictions are not enforced for authenticated GARAIO REM users. Therefore, GARAIO REM user authentication is meant for apps and internal use, not for services where you do not have control over the queries / mutations that are executed***
 
 ## Schema Documentation
 
