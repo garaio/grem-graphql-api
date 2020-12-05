@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.10.3 (2020-12-05)
+
+- Tenancy.isPrimaryTenant added
+- Units with a validFrom date in the future are returned again (regression fixed)
+- startOfAdministration and endOfAdministration on Building return the the dates of the building
+- startOfAdministration, endOfAdministration fields deprecated on Unit
+- zipCode and city on Building deprecated
+
 ## 1.10.2 (2020-11-04)
 
 - unit query implemented
