@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.10.5 (2021-04-09)
+
+- tenancy#noticePer implemented
+- condominiumCommunities query implemented
+- condominiumCommunity type implemented
+- condominiumBuilding type implemented
+- condominium type implemented
+- condominiumOwnership type implemented
+- condominiumOwner type implemented
+
+## 1.10.4 (2021-02-15)
+
+- internal stuff
+
 ## 1.10.3 (2020-12-05)
 
 - Tenancy.isPrimaryTenant added
