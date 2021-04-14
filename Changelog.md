@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.10.6 (2021-04-14)
+
+- accounting#accounts has an optional account group numbers filter
+- Fallback for email and phone number to the first in list if no appropriate type (private, professional) was added to the person
+
 ## 1.10.5 (2021-04-09)
 
 - tenancy#noticePer implemented
