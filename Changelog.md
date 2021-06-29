@@ -1,7 +1,10 @@
 # Changelog
 
+## v1.13.3 (2021-06-29)
+- Condominium#location returns german text of corresponding unit-location-code or free text in case unit data in REM has not been migrated to unit-location-code yet 
+
 ## v1.13.1 (2021-06-16)
-- Unit#location and Condominium#location returns german text of corresponding unit-location-code or free text in case unit data in REM has not been migrated to unit-location-code yet 
+- Unit#location returns german text of corresponding unit-location-code or free text in case unit data in REM has not been migrated to unit-location-code yet 
 
 ## 1.10.6 (2021-04-14)
 
