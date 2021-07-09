@@ -1,10 +1,25 @@
 # Changelog
 
-## v1.13.3 (2021-06-29)
-- Condominium#location returns german text of corresponding unit-location-code or free text in case unit data in REM has not been migrated to unit-location-code yet 
+## 1.13.4 (backported to 1.10.7) (2021-07-09)
 
-## v1.13.1 (2021-06-16)
-- Unit#location returns german text of corresponding unit-location-code or free text in case unit data in REM has not been migrated to unit-location-code yet 
+- tenancy query can be used with client_credentials authentication
+
+## 1.13.3 (2021-07-06)
+
+- Condominium#location returns german text of corresponding unit-location-code or free text in case unit data in REM has not been migrated to unit-location-code yet
+- managementTeam added to condominiumCommunity
+
+## 1.13.2 (2021-06-28)
+
+- salutation added to tenancyApplicantInput
+
+## v1.13.1 (2021-06-15), requires GARAIO REM v1.13.x or later
+
+- createDamageCase mutation implemented
+- updateDamageCase mutation implemented
+- subscriptions for newDamageCase and updateDamageCase implemented
+- damageCaseDrafts query implemented
+- Unit#location returns german text of corresponding unit-location-code or free text in case unit data in REM has not been migrated to unit-location-code yet
 
 ## 1.10.6 (2021-04-14)
 
