@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.13.6 (backported to 1.10.8) (2021-08-13)
+
+- fix for a critical bug that returned incomplete / incorrect tenancy data in complex contract / addendum scenarios
+
+## 1.13.5 (2021-07-16)
+
+- server ping endpoint implemented
+
 ## 1.13.4 (backported to 1.10.7) (2021-07-09)
 
 - tenancy query can be used with client_credentials authentication
