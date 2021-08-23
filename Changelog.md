@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.13.7 (backported to 1.10.8) (2021-08-19)
+
+- `properties` and `condominium_communities` can now be locally limited by providing an optional `latitude_longitude_bounds` parameter
+
 ## 1.13.6 (backported to 1.10.8) (2021-08-13)
 
 - fix for a critical bug that returned incomplete / incorrect tenancy data in complex contract / addendum scenarios
