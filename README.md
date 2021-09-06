@@ -14,7 +14,7 @@ Find out what's new in the [Changelog](Changelog.md)
 
 ## Authentication
 
-Send a `POST` request to `/external/graphql/authenticate/token`, eg <https://demo.garaio-rem.ch/external/graphql/authenticate/token>...
+Send a `POST` request to `/external/graphql/authenticate/token`, eg <https://demo.garaio-rem.net/external/graphql/authenticate/token>...
 
 ### As a service partner
 
