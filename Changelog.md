@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.14.0 (2021-10-11)
+
+- `elevator_count`, `storey_count_over_terrain`, `storey_count_under_terrain`, `building_code` fields added to Building
+- add `building_types` to code_tables
+- add `rental_costs` to a unit
+
 ## 1.13.7 (backported to 1.10.8) (2021-08-19)
 
 - `properties` and `condominium_communities` can now be locally limited by providing an optional `latitude_longitude_bounds` parameter
