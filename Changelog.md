@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.13.9 (tba)
+
+- renamed `damageCaseDrafts` to `damageCases`
+- added `reference` to  `DamageCase`
+- added `damageCase` query to fetch a damage case by its reference value
+- added `publishDamageCase` mutation to publish a damage case
+- added `updateDamageCaseDocumentUrls` mutation to store document urls for a damage case
+- added `deleteDamageCase` mutation to delete a damage case
+
 ## 1.13.7 (backported to 1.10.8) (2021-08-19)
 
 - `properties` and `condominium_communities` can now be locally limited by providing an optional `latitude_longitude_bounds` parameter
