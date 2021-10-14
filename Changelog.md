@@ -5,6 +5,12 @@
 - `elevator_count`, `storey_count_over_terrain`, `storey_count_under_terrain`, `building_code` fields added to Building
 - add `building_types` to code_tables
 - add `rental_costs` to a unit
+- renamed `damageCaseDrafts` to `damageCases`
+- added `reference`, `documentUrls` and `state` to  `DamageCase`
+- added `damageCase` query to fetch a damage case by its reference value
+- added `publishDamageCase` mutation to publish a damage case
+- added `updateDamageCaseDocumentUrls` mutation to store document urls for a damage case
+- added `deleteDamageCase` mutation to delete a damage case
 
 ## 1.13.7 (backported to 1.10.8) (2021-08-19)
 
