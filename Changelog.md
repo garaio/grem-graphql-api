@@ -2,9 +2,9 @@
 
 ## 1.14.0 (2021-10-11)
 
-- `elevator_count`, `storey_count_over_terrain`, `storey_count_under_terrain`, `building_code` fields added to Building
-- add `building_types` to code_tables
-- add `rental_costs` to a unit
+- added fields `elevatorCount`, `storeyCountOverTerrain`, `storeyCountUnderTerrain`, `buildingCode` to Building
+- added `buildingTypes` to code_tables
+- added `rentalCosts` and `additionalCostComponents` to units
 - renamed `damageCaseDrafts` to `damageCases`
 - added `reference`, `documentUrls` and `state` to  `DamageCase`
 - added `damageCase` query to fetch a damage case by its reference value
