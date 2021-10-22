@@ -5,6 +5,7 @@
 - added fields `elevatorCount`, `storeyCountOverTerrain`, `storeyCountUnderTerrain`, `buildingCode` to Building
 - added `buildingTypes` to code_tables
 - added `rentalCosts` and `additionalCostComponents` to units
+- added `tenancyAgreementTermsAndConditions` to units
 - renamed `damageCaseDrafts` to `damageCases`
 - added `reference`, `documentUrls` and `state` to  `DamageCase`
 - added `damageCase` query to fetch a damage case by its reference value
