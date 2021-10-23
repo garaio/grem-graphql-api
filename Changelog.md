@@ -2,6 +2,7 @@
 
 ## 1.14.0 (2021-10-23)
 
+- added `kindOfAdministration` to property
 - fixed `postalAddress.street` raising an error when null
 - added fields `elevatorCount`, `storeyCountOverTerrain`, `storeyCountUnderTerrain`, `buildingCode` to Building
 - added `buildingTypes` to code_tables
