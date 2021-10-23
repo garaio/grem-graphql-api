@@ -30,8 +30,13 @@
 - added `updateDamageCaseDocumentUrls` mutation to store document urls for a damage case
 - added `deleteDamageCase` mutation to delete a damage case
 
-## 1.14.0 (2021-10-11)
+## 1.14.0 (2021-10-23)
 
+- `elevator_count`, `storey_count_over_terrain`, `storey_count_under_terrain`, `building_code` fields added to Building
+- add `building_types` to code_tables
+- add `rental_costs` to a unit
+
+- fixed `postalAddress.street` raising an error when null
 - added fields `elevatorCount`, `storeyCountOverTerrain`, `storeyCountUnderTerrain`, `buildingCode` to Building
 - added `buildingTypes` to code_tables
 - added `rentalCosts` and `additionalCostComponents` to units
