@@ -1,7 +1,8 @@
 # Changelog
 
-## 1.14.0 (2021-10-11)
+## 1.14.0 (2021-10-23)
 
+- fixed `postalAddress.street` raising an error when null
 - added fields `elevatorCount`, `storeyCountOverTerrain`, `storeyCountUnderTerrain`, `buildingCode` to Building
 - added `buildingTypes` to code_tables
 - added `rentalCosts` and `additionalCostComponents` to units
