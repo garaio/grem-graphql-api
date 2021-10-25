@@ -32,17 +32,16 @@
 
 ## 1.14.0 (2021-10-23)
 
-- `elevator_count`, `storey_count_over_terrain`, `storey_count_under_terrain`, `building_code` fields added to Building
-- add `building_types` to code_tables
-- add `rental_costs` to a unit
-- added `kindOfAdministration` to property
+- return proper error response when an exception is raised
+- added `discount`, `discountDeadline` and `rebate` to `supplierOrder`
+- added `kindOfAdministration` to `property`
 - fixed `postalAddress.street` raising an error when null
-- added fields `elevatorCount`, `storeyCountOverTerrain`, `storeyCountUnderTerrain`, `buildingCode` to Building
-- added `buildingTypes` to code_tables
-- added `rentalCosts` and `additionalCostComponents` to units
-- added `tenancyAgreementTermsAndConditions` to units
-- renamed `damageCaseDrafts` to `damageCases`
-- added `reference`, `documentUrls` and `state` to  `DamageCase`
+- added fields `elevatorCount`, `storeyCountOverTerrain`, `storeyCountUnderTerrain`, `buildingCode` to `building`
+- added `buildingTypes` to `codeTables`
+- added `rentalCosts` and `additionalCostComponents` to `units`
+- added `tenancyAgreementTermsAndConditions` to `units`
+- renamed `damageCaseDrafts` to `damageCase`
+- added `reference`, `documentUrls` and `state` to `damageCase`
 - added `damageCase` query to fetch a damage case by its reference value
 - added `publishDamageCase` mutation to publish a damage case
 - added `updateDamageCaseDocumentUrls` mutation to store document urls for a damage case
