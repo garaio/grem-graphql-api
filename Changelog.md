@@ -1,7 +1,12 @@
 # Changelog
 
-## 1.14.0 (2021-10-23)
+## 1.14.2 (2021-11-04)
 
+- fix timestamps on various tables
+
+## 1.14.1 (2021-10-27)
+
+- added `validFrom` and `valid_until` to `costCenter`
 - return proper error response when an exception is raised
 - added `discount`, `discountDeadline` and `rebate` to `supplierOrder`
 - added `kindOfAdministration` to `property`
