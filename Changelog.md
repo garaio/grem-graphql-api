@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.14.4 (2021-11-30)
+
+- code tables developments and developmentAccountingPlans added
+
+## 1.14.3 (2021-11-16)
+
+- fix duplicate properties from properties queries whith complex data permissions config
+
 ## 1.14.2 (2021-11-04)
 
 - fix timestamps on various tables
