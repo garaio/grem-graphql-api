@@ -30,24 +30,6 @@
 - added `updateDamageCaseDocumentUrls` mutation to store document urls for a damage case
 - added `deleteDamageCase` mutation to delete a damage case
 
-## 1.14.0 (2021-10-23)
-
-- added `validFrom` and `valid_until` to `costCenter`
-- return proper error response when an exception is raised
-- added `discount`, `discountDeadline` and `rebate` to `supplierOrder`
-- added `kindOfAdministration` to `property`
-- fixed `postalAddress.street` raising an error when null
-- added fields `elevatorCount`, `storeyCountOverTerrain`, `storeyCountUnderTerrain`, `buildingCode` to `building`
-- added `buildingTypes` to `codeTables`
-- added `rentalCosts` and `additionalCostComponents` to `units`
-- added `tenancyAgreementTermsAndConditions` to `units`
-- renamed `damageCaseDrafts` to `damageCase`
-- added `reference`, `documentUrls` and `state` to `damageCase`
-- added `damageCase` query to fetch a damage case by its reference value
-- added `publishDamageCase` mutation to publish a damage case
-- added `updateDamageCaseDocumentUrls` mutation to store document urls for a damage case
-- added `deleteDamageCase` mutation to delete a damage case
-
 ## 1.13.7 (backported to 1.10.8) (2021-08-19)
 
 - `properties` and `condominium_communities` can now be locally limited by providing an optional `latitude_longitude_bounds` parameter
