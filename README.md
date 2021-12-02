@@ -12,6 +12,10 @@ In GraphiQL (the webinterface of GraphQL) you have the keyboard shortcut `ctrl`+
 
 Find out what's new in the [Changelog](Changelog.md)
 
+## Versioning
+
+The master branch in this repository reflects current development. If you need the specs for a specific release, have a look at the corresponding branch.
+
 ## Authentication
 
 Send a `POST` request to `/external/graphql/authenticate/token`, eg <https://demo.garaio-rem.net/external/graphql/authenticate/token>...
