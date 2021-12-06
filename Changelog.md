@@ -29,6 +29,7 @@
 - added `publishDamageCase` mutation to publish a damage case
 - added `updateDamageCaseDocumentUrls` mutation to store document urls for a damage case
 - added `deleteDamageCase` mutation to delete a damage case
+- renamed `tenancy.noticePer` to `tenancy.expirationDate`
 
 ## 1.13.7 (backported to 1.10.8) (2021-08-19)
 
