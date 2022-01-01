@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.14.5 (2022-??-??)
+
+- code table taxCodes added
+
 ## 1.14.4 (2021-11-30)
 
 - code tables developments and developmentAccountingPlans added
