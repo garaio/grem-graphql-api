@@ -1,8 +1,9 @@
 # Changelog
 
-## 1.14.5 (2022-??-??)
+## 1.14.5 (2022-01-03)
 
 - code table taxCodes added
+- allPhoneNumbers and allEmails added to person and condominium owner type
 
 ## 1.14.4 (2021-11-30)
 
