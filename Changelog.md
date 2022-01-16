@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.14.6 (2022-01-18)
+
+**Caution: This release will work with any v1.14.x minor release of GARAIO REM; however, in order to deliver responsibilities GARAIO REM v_20220113_master or newer is required**
+
+- unit#availableFrom added
+- property#repsonsibilities added
+- condominiumCommunity#repsonsibilities added
+
 ## 1.14.5 (2022-01-03)
 
 - code table taxCodes added
