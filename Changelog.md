@@ -1,12 +1,19 @@
 # Changelog
 
+## 1.15.0 (2022-01-27)
+
+- added `mediaServerConfiguration` query
+- fixed possible appearance of duplicated DamageCases/OnSiteMessages
+- fixed timezone issue
+- fixed CORS issue
+
 ## 1.14.6 (2022-01-18)
 
 **Caution: This release will work with any v1.14.x minor release of GARAIO REM; however, in order to deliver responsibilities GARAIO REM v_20220113_master or newer is required**
 
 - unit#availableFrom added
-- property#repsonsibilities added
-- condominiumCommunity#repsonsibilities added
+- property#responsibilities added
+- condominiumCommunity#responsibilities added
 
 ## 1.14.5 (2022-01-03)
 
@@ -19,7 +26,7 @@
 
 ## 1.14.3 (2021-11-16)
 
-- fix duplicate properties from properties queries whith complex data permissions config
+- fix duplicate properties from properties queries with complex data permissions config
 
 ## 1.14.2 (2021-11-04)
 
@@ -116,7 +123,7 @@
 
 ## 1.10.1 (2020-10-08)
 
-- scope authorization added on owner, supplier, accountig and concierge data
+- scope authorization added on owner, supplier, accounting and concierge data
 
 ## 1.10.0 (2020-08-25)
 
@@ -170,7 +177,7 @@
 ## 1.3.2 (2020-01-16)
 
 - better namings in TenancyApplicationDossierInput
-- tenancies field for a unti has to deliver tenancies that are valid in the future
+- tenancies field for a unit has to deliver tenancies that are valid in the future
 
 ## 1.3.1 (2019-08-31)
 
