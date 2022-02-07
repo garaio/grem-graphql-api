@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.15.1 (2022-02-07)
+
+- added `addDamageCaseDocumentUrl` and `deleteDamageCaseDocumentUrl`
+- removed `UpdateDamageCaseDocumentUrlsInput`
+- all damage case documents use `reference` instead of `id`
+
 ## 1.15.0 (2022-01-27)
 
 - added `mediaServerConfiguration` query
