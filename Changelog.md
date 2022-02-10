@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.15.2 (2022-02-10)
+
+- added account class filter arg for Accounting.accounts
+
 ## 1.15.1 (2022-02-07)
 
 - added `addDamageCaseDocumentUrl` and `deleteDamageCaseDocumentUrl`
