@@ -73,7 +73,7 @@ Each paginated query returns a cursor and a page. Do not forget to query the cur
 
 The page size is 250 elements; If you query a database with 1001 properties, for example, you'll have to run 5 queries to get all properties. This value might change in the future, do not write code that expects the page size to be 250.
 
-To get the first page, send null as the cursor argument or apply no cursror at all, like so:
+To get the first page, send null as the cursor argument or apply no cursor at all, like so:
 
 ```graphql
 query {
