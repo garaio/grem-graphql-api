@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.14.7 / 1.15.4 (2022-04-07)
+
+- allPhoneNumbers and allEmails added to supplier type
+
+## 1.15.3 (2022-03-29)
+
+- `user` query has been deprecated
+- `liableUntil` added to `unit`
+- `bankAccount.notes` can be nil
+- support for generic cost centers
+- support for additional accounting types (`turnoverRentProperty`, `thirdPartyRentProperty`)
+- optional filter argument `tags` for `paginatedAccountings`, `paginatedCondominiumCommunities` and `paginatedProperties`
+- **Breaking change**: the root queries `accountings`, `condominiumCommunities`, `properties`, `suppliers` and `supplierOrders` have been deprecated and replaced by corresponding paginated queries (see README for further instructions); adapt your queries since the deprecated queries will be removed in a future release
+
 ## 1.15.2 (2022-02-10)
 
 - added account class filter arg for Accoiunting.accounts
