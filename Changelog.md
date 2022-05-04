@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.15.6 (2022-03-05)
+
+- page size for paginated queries has been reduced from 250 to 50 in order to handle very complex queries
+
+## 1.15.5 (2022-03-05)
+
+- filter for tags code tables query removed, all defined tags are returned
+
 ## 1.14.7 / 1.15.4 (2022-04-07)
 
 - allPhoneNumbers and allEmails added to supplier type
@@ -16,7 +24,7 @@
 
 ## 1.15.2 (2022-02-10)
 
-- added account class filter arg for Accoiunting.accounts
+- added account class filter arg for Accounting.accounts
 
 ## 1.15.1 (2022-02-07)
 
