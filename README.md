@@ -71,7 +71,7 @@ In order to support very large databases with predictable query performance and 
 
 Each paginated query returns a cursor and a page. Do not forget to query the cursor in order to know if you already got the complete dataset or not. If the cursor returns null, you've queried the last (or only) page.
 
-The page size is 250 elements; If you query a database with 1001 properties, for example, you'll have to run 5 queries to get all properties. This value might change in the future, do not write code that expects the page size to be 250.
+The page size is 50 elements; If you query a database with 1001 properties, for example, you'll have to run 21 queries to get all properties. This value might change in the future, do not write code that expects the page size to be 50.
 
 To get the first page, send null as the cursor argument or apply no cursor at all, like so:
 
