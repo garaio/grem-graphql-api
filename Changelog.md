@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.16.1 (2022-07-13)
+
+- bug fixed that raised an internal error when a query tried to access condominiums.ownerships
+- added association field to CondominiumCommunity
+
 ## 1.15.6 (2022-03-05)
 
 - page size for paginated queries has been reduced from 250 to 50 in order to handle very complex queries
