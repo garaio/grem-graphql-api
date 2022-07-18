@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.16.2 (2022-07-18)
+
+- new query tenantReport added
+- fixed a typo: properyManagementResponsibility -> propertyManagementResponsibility
+
 ## 1.16.1 (2022-07-13)
 
 - bug fixed that raised an internal error when a query tried to access condominiums.ownerships
