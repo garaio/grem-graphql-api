@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.16.3 (2022-08-16)
+
+- Fix for edge case when a tenantReport query is executed with a keyDate that matches the end date of a unit history time period. In that case the unit was not returned, now it will
+
 ## 1.16.2 (2022-07-18)
 
 - new query tenantReport added
