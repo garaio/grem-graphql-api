@@ -22,19 +22,30 @@ Send a `POST` request to `/external/graphql/authenticate/token`, eg <https://dem
 
 ### As a service partner
 
-with the following params:
+with the following form data:
 
-- grant_type: "client_credentials"
-- client_id: "\<your  client id>"
-- client_secret: "\<your  client secret>"
+- grant_type: client_credentials
+- client_id: \<your client id>
+- client_secret: \<your client secret>
 
 ### As a GARAIO REM user
 
-with the following params:
+with the following form data:
 
-- grant_type: "password"
-- username: "\<the user name>"
-- password: "\<the user password>"
+- grant_type: password
+- username: \<the user name>
+- password: \<the user password>
+
+#### Example
+
+```bash
+curl --request POST \
+  --url 'https://demo.garaio-rem.net/external/graphql/authenticate/token' \
+  --header 'content-type: application/x-www-form-urlencoded' \
+  --data grant_type=client_credentials \
+  --data client_id=<your client id> \
+  --data client_secret=<your client secret>
+```
 
 ### Using the access token
 
