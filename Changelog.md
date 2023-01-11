@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.17.2 (2023-01-11)
+
+- idxUnitType added to unit
+
+## 1.17.1 (2022-11-21)
+
+- internal refactorings
+
 ## 1.16.4 (2022-09-29)
 
 - new query `condominiumCommunity(reference: String!)`
