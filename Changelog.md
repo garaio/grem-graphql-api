@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.17.4 (2023-01-23)
+
+- fix idxUnitType queries
+
+## 1.17.3 (2023-01-12)
+
+- internal docker config fix
+
 ## 1.17.2 (2023-01-11)
 
 - idxUnitType added to unit
