@@ -1,3 +1,7 @@
+# This repo has moved
+
+It now lives on the https://github.com/Garaio-REM/grem-graphql-api organization.
+
 # GARAIO REM GraphQL API
 
 GARAIO REM implements a [GraphQL](https://graphql.org) API to communicate with a GARAIO REM instance. In order to use it, you
